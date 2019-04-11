@@ -107,13 +107,18 @@ label
 {
     background-color:#bc3655;
         border-radius: 10px;
-        box-shadow: 5px 5px grey;
+        box-shadow: 5px 5px grey;'
+  
 
+}
+.bo
+{
+      border: 2px solid black;
 }
 .bo:hover
 {
     border-color:  grey;
-    border-width:2px;
+    transform:scale(1.1);
 }
 .che:hover
 {
