@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 11, 2019, 1:17:02 AM
+    Author     : priyanka
+*/
+@font-face
+{
+    font-family: "Diavlo Medium";
+src: url("fonts/Diavlo_MEDIUM_II_37.otf");
+}
+@font-face
+{
+    font-family: "Knowledge";
+    src : url("fonts/Font_Abbey_Dawn_by_loveinhoollywood.ttf")
+}
+@font-face
+{
+    font-family: "Knowledge2";
+    src : url("fonts/BILLY_ARGEL_TRIAL___.ttf")
+}
+.lists li
+{
+    font-size: 1.2em;
+    font-family: 'Diavlo Medium';
+}
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin:0;
+  
+    
+}
+.header
+{
+    min-height: 100vh;
+   width:100%;
+  /*background-color: #f2e9d2;*/
+   background-image: url(border.jpg);
+  /* border-bottom-left-radius: 25%;
+   border-bottom-right-radius: 25%;*/
+  position: relative;
+  
+  
+}
+
+.know
+{
+     font-family: 'Knowledge2';
+     font-size: 20vh;
+     letter-spacing: 5px;
+     text-align: center;
+   padding-top:2vh;
+    text-shadow: 1px 1px 2px blue;
+    color : #bc3655;
+}
+.glow {
+  
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #d43ce8;
+  }
+  to {
+    text-shadow: 0 0 20px #ffa8bc,0 0 20px #ffa8bc;
+  }
+}
+.know h3
+{
+    letter-spacing: 0px;
+    text-shadow : none;
+    font-size:10vh;
+         font-family: 'Knowledge2';
+        /*  text-shadow: 0 0 20px black;*/
+
+}
+.login
+{
+    text-align:center;
+     font-family: 'Diavlo Medium';
+       font-size: 5vh;
+       padding-top:10vh;
+          
+
+}
+label
+{
+           font-size: 3vh;
+
+}
+.che
+{
+    background-color:#bc3655;
+        border-radius: 10px;
+        box-shadow: 5px 5px grey;
+
+}
+.bo:hover
+{
+    border-color:  grey;
+    border-width:2px;
+}
+.che:hover
+{
+    background-color:#873249;
+}
