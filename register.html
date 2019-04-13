@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" type="text/css" href="reg.css">
+
+  <script type="text/javascript">
+
+
+    function cpw(){
+      var pass=document.register.pswd.value;
+      var cpass=document.register.cpswd.value;
+     
+      if(pass != cpass)
+      {
+       alert('Password not matched');
+        document.register.cpswd.value="";
+
+      }
+        //document.register.cpass
+    }
+  /*  function phno(){
+       var phnum=document.register.phn.value;
+        var p=/^[6-9][0-9]{9}$/
+        if(p != phnum){
+          alert('Give valid PhoneNumber');
+        }
+    }*/
+   
+  </script>
+</head>
+  <body>
+    <h1 id="title"  style="font-style: oblique;  color: white ;">KNOWLEDGE SHARE</h1>
+
+      <div  id="form-outer">
+          <center>
+          <form name="register" action="">
+           <fieldset>
+             <legend style="font-weight:bold" align="center" id="title2">Register Here</legend>
+            
+
+              
+            <div class="ks">
+             <label for="namelabel">Name</label>  
+             <label> <input type="text" name="uname" class="bo" required="required" ></label>
+           </div>
+                
+                <br>
+             
+              <div class="ks">
+               <label for="emaillabel">Email </label>
+              <label>  <input type="email" name="email" class="bo" required="required"></label><br>
+             </div>
+
+
+              <br>
+             
+             <div class="ks">
+               <label for="passwordlebel">Password </label>
+                <label><input type="Password" name="pswd" class="bo" required="required" minlength="6"></label><br>
+             </div>
+
+             <br>
+
+            <div class="ks">
+               <label for="cpasslabel">Confirm Password </label> 
+               <label><input type="Password" name="cpswd" class="bo" required="required" onfocusout="cpw()"></label><br>
+             </div>
+
+              <br>
+
+              <div class="ks">
+                <label for="phlabel">PhoneNumber </label>
+               <label> <input type="text" name="phn" class="bo" required="required"  minlength="10" maxlength="10" ></label><br>
+              </div>
+
+              <br>
+              <input type="submit" id="submit" value="Register">
+
+               
+                </fieldset>
+             </center>
+            </form>
+            
+          </div>
+
+</body>
+</html>
+
+ 

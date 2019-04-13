@@ -1,0 +1,54 @@
+@font-face
+{
+    font-family: "Knowledge2";
+    src : url("fonts/BILLY_ARGEL_TRIAL___.ttf")
+}
+
+
+#form-outer {
+  background-color:#dda0dd;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+   padding-bottom: 20px;
+   /*box-shadow: 5px 5px 5px 5px grey,;*/
+  box-shadow: 0px 0px 8px 5px black,-0px -0px 8px 5px black;
+  
+}
+body {
+  background-color: #7B1FA2;
+  text-align: center;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  min-width: 320px;
+}	
+label{
+	display: inline-block;
+	 width:180px;
+    clear:left;
+    
+    padding:5px;
+    font-size: 3vh;
+    float: center;
+}
+#submit{
+	font-size: 3vh ;
+	
+}
+h1
+{
+     font-family: 'Diavlo Medium', Helvetica, sans-serif;
+     font-size: 7vh;
+     font-weight : 100;
+}
+@font-face
+{
+    font-family: "Diavlo Medium";
+src: url("fonts/Diavlo_MEDIUM_II_37.otf");
+}
+#title2
+{
+    font-size: 3.5vh;
+}
