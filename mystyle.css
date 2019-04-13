@@ -1,0 +1,213 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 11, 2019, 1:17:02 AM
+    Author     : priyanka
+*/
+@font-face
+{
+    font-family: "Diavlo Medium";
+src: url("fonts/Diavlo_MEDIUM_II_37.otf");
+}
+@font-face
+{
+    font-family: "Knowledge";
+    src : url("fonts/Font_Abbey_Dawn_by_loveinhoollywood.ttf")
+}
+@font-face
+{
+    font-family: "Knowledge2";
+    src : url("fonts/BILLY_ARGEL_TRIAL___.ttf")
+}
+.lists li
+{
+    font-size: 1.2em;
+    font-family: 'Diavlo Medium';
+}
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin:0;
+  
+    
+}
+
+.header
+{
+    min-height: 100vh;
+   width:100%;
+  background-color: #dce2ed;
+ /* background-image: url(b0.jpg);*/
+  /* border-bottom-left-radius: 25%;
+   border-bottom-right-radius: 25%;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  position: relative;
+  box-shadow: 5px 5px 5px black;
+  
+  
+}
+.ks
+{
+    font-family: cursive;
+      font-size:3vh;
+           letter-spacing: 5px;
+      
+      
+}
+.know
+{
+     font-family: 'Knowledge2';
+     font-size: 20vh;
+     letter-spacing: 5px;
+     text-align: center;
+   padding-top:2vh;
+    text-shadow: 1px 1px 2px blue;
+    color : #bc3655;
+}
+.glow {
+  
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #d43ce8;
+  }
+  to {
+    text-shadow: 0 0 20px #ffa8bc,0 0 20px #ffa8bc;
+  }
+}
+.know h3
+{
+    letter-spacing: 0px;
+    text-shadow : none;
+    font-size:10vh;
+         font-family: 'Knowledge2';
+        /*  text-shadow: 0 0 20px black;*/
+
+}
+.login
+{
+    text-align:center;
+     font-family: 'Diavlo Medium';
+       font-size: 5vh;
+       padding-top:10vh;
+          
+
+}
+label
+{
+           font-size: 3vh;
+
+}
+.che
+{
+    background-color:#bc3655;
+        border-radius: 10px;
+        box-shadow: 5px 5px grey;
+
+}
+.bo
+{
+    border: 2px solid black;
+}
+.bo:hover
+{
+    border-color:  grey;
+    border-width:2px;
+    transform:scale(1.1);
+}
+.che:hover
+{
+    background-color:#873249;
+}
+.bdy
+{
+  background-color: #f9f4f8;
+   background: rgb(208,228,247); /* Old browsers */
+/*background: -moz-radial-gradient(center, ellipse cover, rgba(208,228,247,1) 3%, rgba(115,177,231,1) 83%);*/ /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(208,228,247,1) 3%,rgba(115,177,231,1) 83%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(208,228,247,1) 3%,rgba(115,177,231,1) 83%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#73b1e7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.sub
+{
+     border-radius: 25px;
+     min-height: 34vh;
+      max-height: 50vh;
+  min-width : 35vh;
+   border: 5px solid black;
+   margin-right: 2vh;
+    margin-bottom: 2vh;
+}
+.sub h1
+{
+    background-color: #d69ec6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 7px 5px black;
+    
+}
+.sub 
+{
+   background-color: #d69ec6;
+}
+.sub:hover
+{
+   transform: scale(1.1);
+   background-color: grey;
+}
+@media screen and (max-width: 720px) {
+    .cardss
+    {
+          margin:0vh 11vh;
+          display:flex;
+         flex-direction: column;
+         width:auto;
+    
+          
+    }
+    .one
+    {
+        padding-top: 10vh;
+    }
+    .sub
+    {margin:auto; margin-bottom: 2vh;}
+}
+@media screen and (min-width: 720px) {
+    .cardss
+{
+    display:flex;
+    flex-direction: row;
+     padding-top: 10vh;
+}
+
+}
+.sub-head
+{
+    margin-top: 5vh;
+    font-family:'Diavlo Medium';
+}
+.des
+{
+    border-radius : 25px;
+    background-color: #a1b2ce;
+    border-width:5px;
+}
+.des:hover
+{
+    transform:scale(1.1);
+}
